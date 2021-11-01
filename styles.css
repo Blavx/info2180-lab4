@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url("avengers.jpg");
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(6, 0, 36, 0.7);
+}
+
+.container h1{
+    font-size:54px;
+}
+
+.container h2{
+    color: #7230d5 ;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+#title h1{
+    background-color: #7230d5;
+}
+
+#heroes{
+    font-size: 30px;
+    width: 400px;
+    height: 36px;
+    color: #4a03a2;
+    border: 1px solid rgb(192, 189, 189);
+    border-right: none;
+    border-radius: 5px 0 0 5px;
+    box-shadow: 1px 1px rgb(192, 189, 189) ;
+    padding: 5px;
+    outline: none;
+}
+
+.searchbar{
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+
+#search{
+    width: 90px;
+    border: 3px solid rgb(135, 28, 159);
+    background: rgb(135, 28, 159);
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 1px 1px rgb(135, 28, 159);
+}
+
+.container #result{
+    color: white;
+}
+
+.container #result h2{
+    color: black;
+    background-color: red;
+}
+
+.container #result h3{
+    color:red;
+    font-size:30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-style: normal;
+
+}
+
+.container #result h4{
+    color:black;
+    font-size: 23px;
+}
+
+p{
+    font-weight: bold;
+    font-style: italic;
+    background-color: #7230d5;
+}
